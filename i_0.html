@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>
+</title>
+<style type="text/css">
+</style>
+<script language="JavaScript">
+function shift()
+{
+var L=document.getElementById('inventions');
+L.style.color="#FFFF00";
+setTimeout('shift_a()', 100);
+}
+
+function shift_a()
+{
+var L=document.getElementById('inventions');
+L.style.color="#FFCF00";
+setTimeout('shift_b()', 100);
+}
+
+function shift_b()
+{
+var L=document.getElementById('inventions');
+L.style.color="#FF7F00";
+setTimeout('shift_c()', 100);
+}
+
+function shift_c()
+{
+var L=document.getElementById('inventions');
+L.style.color="FF3F00";
+setTimeout('shift_d()', 100);
+}
+
+function shift_d()
+{
+var L=document.getElementById('inventions');
+L.style.color="FF0000";
+setTimeout('shift_g()', 100);
+}
+
+function shift_g()
+{
+var L=document.getElementById('inventions');
+L.style.color="#FF3F00";
+setTimeout('shift_h()', 100);
+}
+
+function shift_h()
+{
+var L=document.getElementById('inventions');
+L.style.color="#FF7F00";
+setTimeout('shift_i()', 100);
+}
+
+function shift_i()
+{
+var L=document.getElementById('inventions');
+L.style.color="#FFCF00";
+setTimeout('shift()', 100);
+}
+
+function f()
+{
+document.getElementById('1').style.color="white";
+setTimeout('fl()', 100);
+}
+
+function fl()
+{
+document.getElementById('1').style.color="blue";
+document.getElementById('2').style.color="white";
+setTimeout('fla()', 100);
+}
+
+function fla()
+{
+document.getElementById('2').style.color="blue";
+document.getElementById('3').style.color="white";
+setTimeout('flas()', 100);
+}
+
+function flas()
+{
+document.getElementById('3').style.color="blue";
+document.getElementById('4').style.color="white";
+setTimeout('flash()', 100);
+}
+
+function flash()
+{
+document.getElementById('4').style.color="blue";
+document.getElementById('5').style.color="white";
+setTimeout('flash_a()', 100);
+}
+
+function flash_a()
+{
+document.getElementById('5').style.color="blue";
+document.getElementById('4').style.color="white";
+setTimeout('flash_b()', 100);
+}
+
+function flash_b()
+{
+document.getElementById('4').style.color="blue";
+document.getElementById('3').style.color="white";
+setTimeout('flash_c()', 100);
+}
+
+function flash_c()
+{
+document.getElementById('3').style.color="blue";
+document.getElementById('2').style.color="white";
+setTimeout('flash_d()', 100);
+}
+
+function flash_d()
+{
+document.getElementById('2').style.color="blue";
+document.getElementById('1').style.color="white";
+setTimeout('fl()', 100);
+}
+
+function inventions()
+{
+location.href="intro.html";
+}
+</script>
+</head>
+<body onload="shift();f()">
+<div style="position:absolute;top:0;left:0;width:640px;height:480px;background:#CCCCCC;text-align:center;font-family:Courier New;">
+<span style="font-size:30px;" id="inventions"><b>Inventions</b></span>
+<br><br><br><br><br><br><br><br><br><br><br>
+<span style='color:blue;cursor:hand' onclick='inventions()'><span id='1'>S</span><span id='2'>t</span><span id='3'>a</span><span id='4'>r</span><span id='5'>t</span></span>
+<br><br><br><br><br><br><br><br><br><br><br>
+<hr width="25%">
+<span style="font-size:12px;">
+Inventions <sup>&copy;</sup> 2008
+<br>
+Programmed By Arthur C. Watkins<br>
+All Rights Reserved.
+</span>
+</div>
+</body>
+</html>
+<!-- THIS NOTICE MAY NOT BE REMOVED: INVENTIONS, COPYRIGHT 2008 BY ARTHUR CHRISTOPHER WATKINS MAY NOT BE REPRODUCED IN ANY FASHION. PROGRAMMED OFFICIALLY BY ARTHUR CHRISTOPHER WATKINS. ALL RIGHTS RESERVED. -->

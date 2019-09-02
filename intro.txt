@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>
+</title>
+<style type="text/css">
+#info { font-size:12px;font-family:Courier New; }
+</style>
+<script language="JavaScript" src="mouse_props.js">
+</script>
+</head>
+<body bgcolor="#CCCCCC">
+<center>
+<span style="font-family:Courier New;font-size:20px;"><b><u>Introduction</u></b></span>
+</center>
+<span id="info">
+You are Thomas Alva Edison. In order to fulfill the dream of being awarded a Nobel Prize, Thomas Alva Edison must retrieve nine inventions previously stolen by pesky Swipes. There are 3 stages and 3 levels in each stage. That is a total of nine levels. In each level there are Swipes. The main goal for Thomas Alva Edison is to avoid the Swipes and retrieve the invention in the present level. In order to retrieve the invention from the treasure chest in which the invention can be found, Thomas Alva Edison must have a key to unlock the chest. In each level there is a gray key you must get. But be careful! Once the key is at hand, Swipes will attempt to steal the key and put it back where it was! If you can get past the Swipes, simply walk up to the treasure chest to retrieve the invention. After this event has occured, a label will pop-up and tell you about that invention. You can then proceed to the next level. With each new stage, a challenging task is added. Use the arrow keys to move. Once you complete the nine levels, you shall be awarded a Nobel Prize. Let's just hope that those pesky Swipes don't take the Nobel Prize as well! Before you can begin, here are a few icons to get used to:
+<br>
+<img src="blk.bmp"><sup> - A WALL SQUARE</sup><br>
+<img src="blk_1.bmp"><sup> - A PATH SQUARE</sup><br>
+<img src="tae_0.bmp"><sup> - THOMAS ALVA EDISON</sup><br>
+<img src="shadow.bmp"><sup> - A SWIPE</sup><br>
+<img src="ke.bmp"><sup> - A KEY</sup><br>
+<img src="treasure.bmp"><sup> - A TREASURE CHEST</sup><br>
+<span style="position:absolute;top:300;left:250;">
+<u>Controls:</u><br>
+Move...<b>Arrow Keys</b>
+<br>
+<u>Note:</u><br>
+Inventions is a<br>
+32*32 pixel game. To<br>
+maximize full enjoyment,<br>
+please set your screen<br>
+resolution to 1024*768.
+</span>
+<span style="color:blue;cursor:hand;position:absolute;top:350;left:530;" onmouseover="red(this)" onmouseout="blue(this)" onclick="location.href='i_1.html'"><u>Begin Game</u></span>
+</body>
+</html>
